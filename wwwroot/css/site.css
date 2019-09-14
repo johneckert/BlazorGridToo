@@ -170,8 +170,8 @@ app {
 }
 
 .bz-grid tbody tr:hover {
-    border: #FF8D0D solid 1px !important;
-    background: rgb(252, 207, 157);
+    border-bottom: #FF8D0D solid 1px !important;
+    color: #FF8D0D;
 }
 
 .hidden {
@@ -229,4 +229,14 @@ app {
 
 #close-btn:hover {
     color: #FF8D0D;
+}
+
+.filter-bar {
+    width: 100%;
+    height: 50px;
+    padding: 20px 0;
+}
+
+.filter-bar input {
+    float: right;
 }
