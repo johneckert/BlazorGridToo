@@ -1,8 +1,8 @@
 @page "/grid"
 @inject HttpClient Http
 
-<h1>BlazorGrid</h1>
-<div>
+<div class="container">
+<h1>@Title</h1>
     @if (pets == null)
     {
         <p><em>Loading...</em></p>
@@ -19,7 +19,7 @@
             </thead>
             <tbody>
                 @foreach (var pet in pets) {
-                    <tr>
+                    <tr @onclick=@(()=> OpenPopup(pet))>
                         <td>@pet.Name</td>
                         <td>@pet.Breed</td>
                         <td>@pet.Age</td>
@@ -27,14 +27,50 @@
                 }
             </tbody>
         </table>
+         <div id="background" class="@DetailOpen"></div>
+        <div id="popup" class="@DetailOpen">
+            <div class="header-row">
+                <span>DETAILS</span>
+                <span id="close-btn" @onclick=ClosePopup>X</span>
+            </div>
+            <div class="detail-row">
+                <span class="detail-title">Name:</span>
+                <span class="detail-info">@selectedRow.Name</span>
+            </div>
+            <div class="detail-row">
+                <span class="detail-title">Breed:</span>
+                <span class="detail-info">@selectedRow.Breed</span>
+            </div>
+            <div class="detail-row">
+                <span class="detail-title">Age:</span>
+                <span class="detail-info">@selectedRow.Age</span>
+            </div>
+        </div>
     }
 </div>
-@code {
+@functions {
+    public string Title = "A Bunch of Pets";
 
     Pet[] pets;
 
+    Pet selectedRow = new Pet();
+
+    string DetailOpen = "hidden";
+
+    private void OpenPopup( Pet pet ) 
+    {
+        DetailOpen = (DetailOpen == "hidden") ? "" : "hidden";
+        selectedRow = pet;
+    }
+
+    private void ClosePopup() 
+    {
+        DetailOpen = "hidden";    
+    }
+
     protected override async Task OnInitializedAsync()
     {
+        Console.WriteLine("clciked!");
         pets = await Http.GetJsonAsync<Pet[]>("http://localhost:3000");
     }
 
