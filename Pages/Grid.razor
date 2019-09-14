@@ -1,0 +1,21 @@
+@page "/"
+@inject HttpClient Http
+
+<h1>BlazorGrid</h1>
+
+@code {
+
+    TableData[] data;
+
+    protected async Task OnInitAsync() {
+        {
+            data = await Http.GetJsonAsync<TableData[]>("/localhost:3000");
+        }  
+    }
+
+    class TableData {
+        public string name { get; set; }
+        public string breed { get; set; }
+        public int age { get; set; }
+    }
+}
