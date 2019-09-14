@@ -9,20 +9,37 @@
 }
 else
 {
-    <Grid @pets="pets" />
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Breed</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var pet in pets) {
+                <tr>
+                    <td>@pet.Name</td>
+                    <td>@pet.Breed</td>
+                    <td>@pet.Age</td>
+                </tr>
+            }
+        </tbody>
+    </table>
 }
 
 @code {
 
-    TableData[] pets;
+    Pet[] pets;
 
     protected override async Task OnInitializedAsync()
     {
-        pets = await Http.GetJsonAsync<TableData[]>("http://localhost:3000");
+        pets = await Http.GetJsonAsync<Pet[]>("http://localhost:3000");
         System.Console.WriteLine(pets);
     }
 
-    public class TableData 
+    public class Pet 
     {
         public string Name { get; set; }
         public string Breed { get; set; }
