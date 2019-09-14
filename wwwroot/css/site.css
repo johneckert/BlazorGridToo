@@ -157,14 +157,21 @@ app {
 
 .bz-grid tbody tr:nth-child(odd) {
     background: #ffffff;
+    border: #FFFFFF solid 1px;
 }
 
 .bz-grid tbody tr:nth-child(even) {
     background: #f6f6f6;
+    border: #f6f6f6 solid 1px;
+}
+
+.bz-grid tbody tr {
+    border: #FFFFFF solid 1px;
 }
 
 .bz-grid tbody tr:hover {
-    color: #FF8D0D;
+    border: #FF8D0D solid 1px !important;
+    background: rgb(252, 207, 157);
 }
 
 .hidden {
