@@ -128,3 +128,5 @@
 /Users/John/Development/Projects/BlazorGridToo/obj/Debug/netstandard2.0/blazor/linker/BlazorGridToo.pdb
 /Users/John/Development/Projects/BlazorGridToo/obj/Debug/netstandard2.0/blazor/inputs.bootjson.cache
 /Users/John/Development/Projects/BlazorGridToo/obj/Debug/netstandard2.0/blazor/blazor.boot.json
+/Users/John/Development/Projects/BlazorGridToo/obj/Debug/netstandard2.0/RazorDeclaration/Pages/GridWrapper.razor.g.cs
+/Users/John/Development/Projects/BlazorGridToo/obj/Debug/netstandard2.0/Razor/Pages/GridWrapper.razor.g.cs

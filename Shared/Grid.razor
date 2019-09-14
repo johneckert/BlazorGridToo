@@ -1,0 +1,22 @@
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Breed</th>
+            <th>Age</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var pet in pets) {
+            <tr>
+                <td>@pet.Name</td>
+                <td>@pet.Breed</td>
+                <td>@pet.Age</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+    [parameters] public TableData[] pets;
+}

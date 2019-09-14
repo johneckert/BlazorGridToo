@@ -1,0 +1,31 @@
+@page "/grid"
+@inject HttpClient Http
+
+<h1>BlazorGrid</h1>
+
+@if (pets == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <Grid @pets="pets" />
+}
+
+@code {
+
+    TableData[] pets;
+
+    protected override async Task OnInitializedAsync()
+    {
+        pets = await Http.GetJsonAsync<TableData[]>("http://localhost:3000");
+        System.Console.WriteLine(pets);
+    }
+
+    public class TableData 
+    {
+        public string Name { get; set; }
+        public string Breed { get; set; }
+        public int Age { get; set; }
+    }
+}
