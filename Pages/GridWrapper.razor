@@ -2,33 +2,33 @@
 @inject HttpClient Http
 
 <h1>BlazorGrid</h1>
-
-@if (pets == null)
-{
-    <p><em>Loading...</em></p>
-}
-else
-{
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Breed</th>
-                <th>Age</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var pet in pets) {
+<div>
+    @if (pets == null)
+    {
+        <p><em>Loading...</em></p>
+    }
+    else
+    {
+        <table class="bz-grid">
+            <thead>
                 <tr>
-                    <td>@pet.Name</td>
-                    <td>@pet.Breed</td>
-                    <td>@pet.Age</td>
+                    <th>Name</th>
+                    <th>Breed</th>
+                    <th>Age</th>
                 </tr>
-            }
-        </tbody>
-    </table>
-}
-
+            </thead>
+            <tbody>
+                @foreach (var pet in pets) {
+                    <tr>
+                        <td>@pet.Name</td>
+                        <td>@pet.Breed</td>
+                        <td>@pet.Age</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>
 @code {
 
     Pet[] pets;
@@ -36,7 +36,6 @@ else
     protected override async Task OnInitializedAsync()
     {
         pets = await Http.GetJsonAsync<Pet[]>("http://localhost:3000");
-        System.Console.WriteLine(pets);
     }
 
     public class Pet 

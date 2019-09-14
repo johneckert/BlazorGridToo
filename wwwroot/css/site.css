@@ -133,3 +133,26 @@ app {
         display: block;
     }
 }
+
+/* mine */
+
+.bz-grid {
+    width: 100%;
+}
+
+.bz-grid thead tr {
+    color: #606060;
+    border-bottom: #606060 solid 1px;
+}
+
+.bz-grid tbody tr:nth-child(odd) {
+    background: #ffffff;
+}
+
+.bz-grid tbody tr:nth-child(even) {
+    background: #f6f6f6;
+}
+
+.bz-grid tbody tr:hover {
+    color: #FF8D0D;
+}
