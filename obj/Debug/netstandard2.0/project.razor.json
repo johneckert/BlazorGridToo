@@ -58,202 +58,6 @@
       },
       {
         "Kind": "Components.Component",
-        "Name": "BlazorGridToo.Pages.Counter",
-        "AssemblyName": "BlazorGridToo",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Counter",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorGridToo.Pages.Counter"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "BlazorGridToo.Pages.Counter",
-        "AssemblyName": "BlazorGridToo",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorGridToo.Pages.Counter",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorGridToo.Pages.Counter",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "BlazorGridToo.Pages.FetchData",
-        "AssemblyName": "BlazorGridToo",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorGridToo.Pages.FetchData"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "BlazorGridToo.Pages.FetchData",
-        "AssemblyName": "BlazorGridToo",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorGridToo.Pages.FetchData",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorGridToo.Pages.FetchData",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "BlazorGridToo.Pages.Index",
-        "AssemblyName": "BlazorGridToo",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorGridToo.Pages.Index"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "BlazorGridToo.Pages.Index",
-        "AssemblyName": "BlazorGridToo",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorGridToo.Pages.Index",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorGridToo.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "BlazorGridToo.Pages.GridWrapper",
-        "AssemblyName": "BlazorGridToo",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "GridWrapper",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorGridToo.Pages.GridWrapper"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "BlazorGridToo.Pages.GridWrapper",
-        "AssemblyName": "BlazorGridToo",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorGridToo.Pages.GridWrapper",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorGridToo.Pages.GridWrapper",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "Kind": "Components.Component",
         "Name": "BlazorGridToo.Shared.MainLayout",
         "AssemblyName": "BlazorGridToo",
         "Documentation": null,
@@ -386,14 +190,14 @@
       },
       {
         "Kind": "Components.Component",
-        "Name": "BlazorGridToo.Shared.NavMenu",
+        "Name": "BlazorGridToo.Shared._NavMenu",
         "AssemblyName": "BlazorGridToo",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NavMenu",
+            "TagName": "_NavMenu",
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
@@ -405,19 +209,19 @@
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorGridToo.Shared.NavMenu"
+          "Common.TypeName": "BlazorGridToo.Shared._NavMenu"
         }
       },
       {
         "Kind": "Components.Component",
-        "Name": "BlazorGridToo.Shared.NavMenu",
+        "Name": "BlazorGridToo.Shared._NavMenu",
         "AssemblyName": "BlazorGridToo",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorGridToo.Shared.NavMenu",
+            "TagName": "BlazorGridToo.Shared._NavMenu",
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
@@ -429,20 +233,20 @@
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorGridToo.Shared.NavMenu",
+          "Common.TypeName": "BlazorGridToo.Shared._NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
       {
         "Kind": "Components.Component",
-        "Name": "BlazorGridToo.Shared.SurveyPrompt",
+        "Name": "BlazorGridToo.Shared._SurveyPrompt",
         "AssemblyName": "BlazorGridToo",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "SurveyPrompt",
+            "TagName": "_SurveyPrompt",
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
@@ -469,19 +273,19 @@
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorGridToo.Shared.SurveyPrompt"
+          "Common.TypeName": "BlazorGridToo.Shared._SurveyPrompt"
         }
       },
       {
         "Kind": "Components.Component",
-        "Name": "BlazorGridToo.Shared.SurveyPrompt",
+        "Name": "BlazorGridToo.Shared._SurveyPrompt",
         "AssemblyName": "BlazorGridToo",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorGridToo.Shared.SurveyPrompt",
+            "TagName": "BlazorGridToo.Shared._SurveyPrompt",
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
@@ -508,102 +312,21 @@
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorGridToo.Shared.SurveyPrompt",
+          "Common.TypeName": "BlazorGridToo.Shared._SurveyPrompt",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
       {
         "Kind": "Components.Component",
-        "Name": "BlazorGridToo.Shared.__generated__MainLayout",
+        "Name": "BlazorGridToo.Pages.GridWrapper",
         "AssemblyName": "BlazorGridToo",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "__generated__MainLayout",
+            "TagName": "GridWrapper",
             "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Body",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-            "Diagnostics": [],
-            "Metadata": {
-              "Common.PropertyName": "Body",
-              "Components.ChildContent": "True"
-            },
-            "BoundAttributeParameters": []
-          }
-        ],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorGridToo.Shared.__generated__MainLayout"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "BlazorGridToo.Shared.__generated__MainLayout",
-        "AssemblyName": "BlazorGridToo",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorGridToo.Shared.__generated__MainLayout",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Body",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-            "Diagnostics": [],
-            "Metadata": {
-              "Common.PropertyName": "Body",
-              "Components.ChildContent": "True"
-            },
-            "BoundAttributeParameters": []
-          }
-        ],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorGridToo.Shared.__generated__MainLayout",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "Kind": "Components.ChildContent",
-        "Name": "BlazorGridToo.Shared.__generated__MainLayout.Body",
-        "AssemblyName": "BlazorGridToo",
-        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Body",
-            "ParentTag": "__generated__MainLayout",
             "TagStructure": 0,
             "Attributes": [],
             "Diagnostics": []
@@ -613,22 +336,21 @@
         "AllowedChildTags": [],
         "Diagnostics": [],
         "Metadata": {
-          "Runtime.Name": "Components.None",
-          "Common.TypeName": "BlazorGridToo.Shared.__generated__MainLayout.Body",
-          "Components.IsSpecialKind": "Components.ChildContent"
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorGridToo.Pages.GridWrapper"
         }
       },
       {
-        "Kind": "Components.ChildContent",
-        "Name": "BlazorGridToo.Shared.__generated__MainLayout.Body",
+        "Kind": "Components.Component",
+        "Name": "BlazorGridToo.Pages.GridWrapper",
         "AssemblyName": "BlazorGridToo",
-        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Body",
-            "ParentTag": "BlazorGridToo.Shared.__generated__MainLayout",
+            "TagName": "BlazorGridToo.Pages.GridWrapper",
+            "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
             "Diagnostics": []
@@ -638,9 +360,155 @@
         "AllowedChildTags": [],
         "Diagnostics": [],
         "Metadata": {
-          "Runtime.Name": "Components.None",
-          "Common.TypeName": "BlazorGridToo.Shared.__generated__MainLayout.Body",
-          "Components.IsSpecialKind": "Components.ChildContent",
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorGridToo.Pages.GridWrapper",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "BlazorGridToo.Pages._FetchData",
+        "AssemblyName": "BlazorGridToo",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "_FetchData",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorGridToo.Pages._FetchData"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "BlazorGridToo.Pages._FetchData",
+        "AssemblyName": "BlazorGridToo",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorGridToo.Pages._FetchData",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorGridToo.Pages._FetchData",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "BlazorGridToo.Pages._Counter",
+        "AssemblyName": "BlazorGridToo",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "_Counter",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorGridToo.Pages._Counter"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "BlazorGridToo.Pages._Counter",
+        "AssemblyName": "BlazorGridToo",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorGridToo.Pages._Counter",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorGridToo.Pages._Counter",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "BlazorGridToo.Pages._Index",
+        "AssemblyName": "BlazorGridToo",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "_Index",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorGridToo.Pages._Index"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "BlazorGridToo.Pages._Index",
+        "AssemblyName": "BlazorGridToo",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorGridToo.Pages._Index",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorGridToo.Pages._Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -10606,13 +10474,28 @@
   "RootNamespace": "BlazorGridToo",
   "Documents": [
     {
-      "FilePath": "Pages/Index.razor",
-      "TargetPath": "Pages/Index.razor",
+      "FilePath": "Pages/_Index.razor",
+      "TargetPath": "Pages/_Index.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "Pages/_FetchData.razor",
+      "TargetPath": "Pages/_FetchData.razor",
       "FileKind": "component"
     },
     {
       "FilePath": "Pages/GridWrapper.razor",
       "TargetPath": "Pages/GridWrapper.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "Shared/_NavMenu.razor",
+      "TargetPath": "Shared/_NavMenu.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "Pages/_Counter.razor",
+      "TargetPath": "Pages/_Counter.razor",
       "FileKind": "component"
     },
     {
@@ -10631,23 +10514,8 @@
       "FileKind": "component"
     },
     {
-      "FilePath": "Pages/Counter.razor",
-      "TargetPath": "Pages/Counter.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "Pages/FetchData.razor",
-      "TargetPath": "Pages/FetchData.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "Shared/NavMenu.razor",
-      "TargetPath": "Shared/NavMenu.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "Shared/SurveyPrompt.razor",
-      "TargetPath": "Shared/SurveyPrompt.razor",
+      "FilePath": "Shared/_SurveyPrompt.razor",
+      "TargetPath": "Shared/_SurveyPrompt.razor",
       "FileKind": "component"
     }
   ],
