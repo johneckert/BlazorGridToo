@@ -24,11 +24,6 @@ using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
-#line 4 "/Users/John/Development/Projects/BlazorGridToo/_Imports.razor"
-using Microsoft.AspNetCore.Components.Web;
-
-#line default
-#line hidden
 #line 5 "/Users/John/Development/Projects/BlazorGridToo/_Imports.razor"
 using Microsoft.JSInterop;
 
@@ -41,6 +36,11 @@ using BlazorGridToo;
 #line hidden
 #line 7 "/Users/John/Development/Projects/BlazorGridToo/_Imports.razor"
 using BlazorGridToo.Shared;
+
+#line default
+#line hidden
+#line 8 "/Users/John/Development/Projects/BlazorGridToo/_Imports.razor"
+using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden

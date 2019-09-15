@@ -10,7 +10,7 @@
     else
     {
         <div class="filter-bar">
-            <input type="text" placeholder="Filter" name="filter" title="Filter Teable" />
+            <input type="text" placeholder="Filter" name="filter" title="Filter Teable" @bind-value="FilterValue" @bind-value:event="oninput" @onkeyup="FilterPets"/>
         </div>
         <table class="bz-grid">
             <thead>
@@ -21,7 +21,7 @@
                 </tr>
             </thead>
             <tbody>
-                @foreach (var pet in pets) {
+                @foreach (var pet in visiblePets) {
                     <tr @onclick=@(()=> OpenPopup(pet))>
                         <td>@pet.Name</td>
                         <td>@pet.Breed</td>
@@ -51,10 +51,14 @@
         </div>
     }
 </div>
-@functions {
+@code {
     public string Title = "A Bunch of Pets";
 
+    private string FilterValue { get; set; } = "";
+
     Pet[] pets;
+
+    Pet[] visiblePets;
 
     Pet selectedRow = new Pet();
 
@@ -73,8 +77,18 @@
 
     protected override async Task OnInitializedAsync()
     {
-        Console.WriteLine("clciked!");
-        pets = await Http.GetJsonAsync<Pet[]>("http://localhost:3000");
+        visiblePets = pets = await Http.GetJsonAsync<Pet[]>("http://localhost:3000");
+    }
+
+    public void FilterPets() 
+    {
+        IEnumerable<Pet> petQuery =
+            from pet in pets
+            where pet.Name.Contains(FilterValue) || pet.Breed.Contains(FilterValue)|| pet.Age.ToString().Contains(FilterValue)
+            select pet;
+
+        visiblePets = petQuery.ToArray();
+
     }
 
     public class Pet 
