@@ -15,9 +15,24 @@
         <table class="bz-grid">
             <thead>
                 <tr>
-                    <th @onclick=@(()=> SortTable("Name"))>Name</th>
-                    <th @onclick=@(()=> SortTable("Breed"))>Breed</th>
-                    <th @onclick=@(()=> SortTable("Age"))>Age</th>
+                    <th class="name" @onclick=@(()=> SortTable("Name"))>
+                        <span>Name</span> 
+                        <span>
+                            <img src="/css/chevron.png" class="@NameSort"/>
+                        </span> 
+                    </th>
+                    <th class="breed" @onclick=@(()=> SortTable("Breed"))>
+                        <span>Breed</span> 
+                        <span>
+                            <img src="/css/chevron.png" class="@BreedSort"/>
+                        </span> 
+                    </th>
+                    <th class="age" @onclick=@(()=> SortTable("Age"))>
+                        <span>Age </span>
+                        <span>
+                            <img src="/css/chevron.png" class="@AgeSort"/>
+                        </span> 
+                    </th>
                 </tr>
             </thead>
             <tbody>
@@ -58,6 +73,12 @@
 
     private string SortedBy = "";
 
+    private string NameSort = "none";
+
+    private string BreedSort = "none";
+
+    private string AgeSort = "none";
+
     Pet[] pets;
 
     Pet[] visiblePets;
@@ -81,7 +102,30 @@
                 select pet;
 
                 visiblePets = sortQuery.ToArray();
-                SortedBy = column + "_desc";
+
+                if (column == "Name") {
+                    NameSort = "desc";
+                    BreedSort = "none";
+                    AgeSort = "none";
+                }
+
+
+                if (column == "Breed") {
+                    BreedSort = "desc";
+                    NameSort = "none";
+                    AgeSort = "none";
+                }
+
+
+                if (column == "Age") {
+                    AgeSort = "desc";
+                    NameSort = "none";
+                    BreedSort = "none";
+                }
+
+                SortedBy = column + "-desc";
+
+                
         }
         else {
             IEnumerable<Pet> sortQuery =
@@ -90,6 +134,27 @@
                 select pet;
 
                 visiblePets = sortQuery.ToArray();
+                
+                if (column == "Name") {
+                    NameSort = "asc";
+                    BreedSort = "none";
+                    AgeSort = "none";
+                }
+
+
+                if (column == "Breed") {
+                    BreedSort = "asc";
+                    NameSort = "none";
+                    AgeSort = "none";
+                }
+
+
+                if (column == "Age") {
+                    AgeSort = "asc";
+                    NameSort = "none";
+                    BreedSort = "none";
+                }
+
                 SortedBy = column;
         }
     }

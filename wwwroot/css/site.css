@@ -240,3 +240,30 @@ app {
 .filter-bar input {
     float: right;
 }
+th {
+    height: 1.5rem;
+    width: calc(100% / 3);
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+th span {
+    text-align: center;
+    width: 50%;
+}
+
+th img {
+    display: inline-block;
+    width: 1rem;
+    height: auto;
+}
+
+th img.none {
+    display: none;
+}
+
+th img.desc {
+    transform: rotate(180deg);
+}
