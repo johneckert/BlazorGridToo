@@ -1,6 +1,6 @@
 To do:
-1. Build Header with input that filters rows
-2. Sort by column when header row is clicked on (asc/desc)
+~~1. Build Header with input that filters rows~~
+~~2. Sort by column when header row is clicked on (asc/desc)~~
 3. Drag and Drop Column Order
 4. accept event to refresh grid
 5. grid accept any json object and make table based on data.
