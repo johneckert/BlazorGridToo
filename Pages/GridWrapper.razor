@@ -15,9 +15,9 @@
         <table class="bz-grid">
             <thead>
                 <tr>
-                    <th>Name</th>
-                    <th>Breed</th>
-                    <th>Age</th>
+                    <th @onclick=@(()=> SortTable("Name"))>Name</th>
+                    <th @onclick=@(()=> SortTable("Breed"))>Breed</th>
+                    <th @onclick=@(()=> SortTable("Age"))>Age</th>
                 </tr>
             </thead>
             <tbody>
@@ -56,6 +56,8 @@
 
     private string FilterValue { get; set; } = "";
 
+    private string SortedBy = "";
+
     Pet[] pets;
 
     Pet[] visiblePets;
@@ -68,6 +70,28 @@
     {
         DetailOpen = (DetailOpen == "hidden") ? "" : "hidden";
         selectedRow = pet;
+    }
+
+    private void SortTable (String column)
+    {
+        if (column == SortedBy) {
+            IEnumerable<Pet> sortQuery =
+                from pet in pets
+                orderby pet.GetType().GetProperty(column).GetValue(pet, null) descending
+                select pet;
+
+                visiblePets = sortQuery.ToArray();
+                SortedBy = column + "_desc";
+        }
+        else {
+            IEnumerable<Pet> sortQuery =
+                from pet in pets
+                orderby pet.GetType().GetProperty(column).GetValue(pet, null)
+                select pet;
+
+                visiblePets = sortQuery.ToArray();
+                SortedBy = column;
+        }
     }
 
     private void ClosePopup() 
