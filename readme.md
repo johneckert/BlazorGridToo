@@ -1,4 +1,5 @@
-To do:
+### To do:
+
 ~~1. Build Header with input that filters rows~~
 
 ~~2. Sort by column when header row is clicked on (asc/desc)~~
