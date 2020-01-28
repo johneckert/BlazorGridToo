@@ -1,70 +1,8 @@
 @page "/grid"
 @inject HttpClient Http
 
-<div class="container">
-<h1>@Title</h1>
-    @if (pets == null)
-    {
-        <p><em>Loading...</em></p>
-    }
-    else
-    {
-        <div class="filter-bar">
-            <input type="text" placeholder="Filter" name="filter" title="Filter Teable" @bind-value="FilterValue" @bind-value:event="oninput" @onkeyup="FilterPets"/>
-        </div>
-        <table class="bz-grid">
-            <thead>
-                <tr>
-                    <th class="name" @onclick=@(()=> SortTable("Name"))>
-                        <span>Name</span> 
-                        <span>
-                            <img src="/css/chevron.png" class="@NameSort"/>
-                        </span> 
-                    </th>
-                    <th class="breed" @onclick=@(()=> SortTable("Breed"))>
-                        <span>Breed</span> 
-                        <span>
-                            <img src="/css/chevron.png" class="@BreedSort"/>
-                        </span> 
-                    </th>
-                    <th class="age" @onclick=@(()=> SortTable("Age"))>
-                        <span>Age </span>
-                        <span>
-                            <img src="/css/chevron.png" class="@AgeSort"/>
-                        </span> 
-                    </th>
-                </tr>
-            </thead>
-            <tbody>
-                @foreach (var pet in visiblePets) {
-                    <tr @onclick=@(()=> OpenPopup(pet))>
-                        <td>@pet.Name</td>
-                        <td>@pet.Breed</td>
-                        <td>@pet.Age</td>
-                    </tr>
-                }
-            </tbody>
-        </table>
-         <div id="background" class="@DetailOpen"></div>
-        <div id="popup" class="@DetailOpen">
-            <div class="header-row">
-                <span>DETAILS</span>
-                <span id="close-btn" @onclick=ClosePopup>X</span>
-            </div>
-            <div class="detail-row">
-                <span class="detail-title">Name:</span>
-                <span class="detail-info">@selectedRow.Name</span>
-            </div>
-            <div class="detail-row">
-                <span class="detail-title">Breed:</span>
-                <span class="detail-info">@selectedRow.Breed</span>
-            </div>
-            <div class="detail-row">
-                <span class="detail-title">Age:</span>
-                <span class="detail-info">@selectedRow.Age</span>
-            </div>
-        </div>
-    }
+<div>
+    <Grid data="pets" title="A Bunch of Pets" /> 
 </div>
 @code {
     public string Title = "A Bunch of Pets";

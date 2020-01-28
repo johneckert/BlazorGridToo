@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "/Users/John/Development/Projects/BlazorGridToo/BlazorGridToo.csproj": {}
+    "/Users/johneckert/Code/BlazorGridToo/BlazorGridToo.csproj": {}
   },
   "projects": {
-    "/Users/John/Development/Projects/BlazorGridToo/BlazorGridToo.csproj": {
+    "/Users/johneckert/Code/BlazorGridToo/BlazorGridToo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/John/Development/Projects/BlazorGridToo/BlazorGridToo.csproj",
+        "projectUniqueName": "/Users/johneckert/Code/BlazorGridToo/BlazorGridToo.csproj",
         "projectName": "BlazorGridToo",
-        "projectPath": "/Users/John/Development/Projects/BlazorGridToo/BlazorGridToo.csproj",
-        "packagesPath": "/Users/John/.nuget/packages/",
-        "outputPath": "/Users/John/Development/Projects/BlazorGridToo/obj/",
+        "projectPath": "/Users/johneckert/Code/BlazorGridToo/BlazorGridToo.csproj",
+        "packagesPath": "/Users/johneckert/.nuget/packages/",
+        "outputPath": "/Users/johneckert/Code/BlazorGridToo/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/John/.nuget/NuGet/NuGet.Config"
+          "/Users/johneckert/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -65,16 +65,10 @@
             }
           },
           "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
+            "net461"
           ],
           "assetTargetFallback": true,
-          "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100-preview9-014004/RuntimeIdentifierGraph.json"
+          "warn": true
         }
       }
     }

@@ -130,3 +130,9 @@
 /Users/John/Development/Projects/BlazorGridToo/obj/Debug/netstandard2.0/Razor/Pages/Index.razor.g.cs
 /Users/John/Development/Projects/BlazorGridToo/obj/Debug/netstandard2.0/Razor/Shared/NavMenu.razor.g.cs
 /Users/John/Development/Projects/BlazorGridToo/obj/Debug/netstandard2.0/Razor/Shared/SurveyPrompt.razor.g.cs
+/Users/johneckert/Code/BlazorGridToo/obj/Debug/netstandard2.0/BlazorGridToo.csprojAssemblyReference.cache
+/Users/johneckert/Code/BlazorGridToo/obj/Debug/netstandard2.0/BlazorGridToo.csproj.CoreCompileInputs.cache
+/Users/johneckert/Code/BlazorGridToo/obj/Debug/netstandard2.0/BlazorGridToo.AssemblyInfoInputs.cache
+/Users/johneckert/Code/BlazorGridToo/obj/Debug/netstandard2.0/BlazorGridToo.AssemblyInfo.cs
+/Users/johneckert/Code/BlazorGridToo/obj/Debug/netstandard2.0/BlazorGridToo.dll
+/Users/johneckert/Code/BlazorGridToo/obj/Debug/netstandard2.0/BlazorGridToo.pdb
